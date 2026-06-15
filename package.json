@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "npm run check",
+    "check": "node --check scripts/scanner.js"
+  },
+  "devDependencies": {}
+}
