@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHIPSAFE AI — Vibe Coding Agent Launch Guardrail Kit</title>
+  <meta name="description" content="Turn an unstable AI-generated prototype into a tested, protected and launch-ready product without becoming a software engineer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SHIPSAFE AI home"><span class="brand-mark">▣</span><span>SHIPSAFE AI</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#scanner">Free Scan</a><a href="#kit">What's Inside</a><a href="#pricing">Pricing</a><a href="#campaign">Launch Plan</a>
+    </nav>
+    <a class="header-cta" href="#scanner">Scan My Project</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">The Vibe Coding Agent Launch Guardrail Kit</p>
+        <h1>Your AI app working is not proof that it is safe to launch.</h1>
+        <p class="hero-subhead">Find the security, data, testing and deployment risks your coding agent may have hidden—before customers, capstone reviewers or client stakeholders find them.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#scanner">Run the 60-second scan</a><a class="btn btn-secondary" href="#kit">View the system</a></div>
+        <p class="trust-line">Built for Codex, Claude Code, Cursor, Gemini, Antigravity and other coding-agent workflows.</p>
+      </div>
+      <aside class="risk-card" aria-label="Launch risk snapshot">
+        <div class="terminal-dots"><span></span><span></span><span></span></div>
+        <h2>High-risk patterns the demo may hide</h2>
+        <ul>
+          <li>Mocked data replacing failed integrations</li>
+          <li>Users able to access another user's records</li>
+          <li>Secrets shipped into client-side bundles</li>
+          <li>Agent changes outside the requested scope</li>
+          <li>No rollback point after database changes</li>
+        </ul>
+        <div class="score-pill"><strong>43/100</strong><span>Example launch-readiness score</span></div>
+      </aside>
+    </section>
+
+    <section class="problem-band">
+      <h2>Build, test, secure and launch your AI agent or vibe-coded app without destroying working code, leaking credentials or getting trapped in endless debugging.</h2>
+      <p>SHIPSAFE AI is an execution system for nontechnical and lightly technical builders who already have something they want to ship.</p>
+    </section>
+
+    <section id="scanner" class="scanner section-pad">
+      <div class="section-heading">
+        <p class="eyebrow">Free diagnostic</p>
+        <h2>Is your AI-built app actually safe to launch?</h2>
+        <p>Answer 12 checks. You do not need to upload code or share credentials.</p>
+      </div>
+      <div class="scanner-grid">
+        <form id="scanForm" class="scan-form">
+          <fieldset>
+            <legend>60-second launch-risk scan</legend>
+            <label><input type="checkbox" name="check" /> I have tested the app from a brand-new non-admin user account.</label>
+            <label><input type="checkbox" name="check" /> A normal user cannot retrieve or modify another user's data.</label>
+            <label><input type="checkbox" name="check" /> No API keys, tokens or secrets appear in source code, logs or browser bundles.</label>
+            <label><input type="checkbox" name="check" /> Real integrations are separated from mock/demo responses.</label>
+            <label><input type="checkbox" name="check" /> Failed API calls show visible failures instead of invented successful results.</label>
+            <label><input type="checkbox" name="check" /> Core workflows have repeatable regression tests or manual acceptance checks.</label>
+            <label><input type="checkbox" name="check" /> The coding agent must report every changed file and verification command.</label>
+            <label><input type="checkbox" name="check" /> Protected files and “never edit without approval” boundaries are documented.</label>
+            <label><input type="checkbox" name="check" /> A checkpoint exists before database, auth or infrastructure changes.</label>
+            <label><input type="checkbox" name="check" /> I can restore the last working version in under five minutes.</label>
+            <label><input type="checkbox" name="check" /> Inputs, uploads, URLs and prompts are validated against unsafe use.</label>
+            <label><input type="checkbox" name="check" /> There is a written launch/no-launch decision with release evidence.</label>
+          </fieldset>
+          <button class="btn btn-primary" type="submit">Calculate my score</button>
+        </form>
+        <div class="result-panel" aria-live="polite">
+          <p class="eyebrow">Your result</p>
+          <div id="scoreNumber" class="score-number">0/100</div>
+          <h3 id="scoreLabel">Run the scan to see your readiness rating.</h3>
+          <p id="scoreCopy">SHIPSAFE turns every failed check into a concrete guardrail, test, security preflight or rollback action.</p>
+          <a class="btn btn-secondary" href="#pricing">Fix failed checks with SHIPSAFE</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="kit" class="section-pad">
+      <div class="section-heading">
+        <p class="eyebrow">Exact product</p>
+        <h2>What the buyer receives</h2>
+        <p>Packaged as one ZIP with buyer-ready manuals, editable guardrails, scorecards and launch assets.</p>
+      </div>
+      <div class="cards">
+        <article><span>01</span><h3>ShipSafe Operating Manual</h3><p>A polished 25–35 page system covering setup, requirements locking, permissions, environments, testing, security, deployment, rollback and launch validation.</p></article>
+        <article><span>02</span><h3>Universal AI Coding Instructions</h3><p>AGENTS.md, CLAUDE.md, GEMINI.md, .cursorrules and PROJECT_CONTEXT.md files that define what agents may edit, must preserve and must verify.</p></article>
+        <article><span>03</span><h3>Do Not Break My App Protocol</h3><p>Ready-to-paste rules for targeted patches, checkpoints, tests, secret protection, change reports and stop conditions.</p></article>
+        <article><span>04</span><h3>Production-Readiness Scorecard</h3><p>A workbook scoring functionality, auth, database safety, permissions, error handling, mobile, performance, security, deployment, recovery and documentation.</p></article>
+        <article><span>05</span><h3>Security Preflight</h3><p>Checks for exposed keys, missing authorization, public tables, weak RLS, unsafe uploads, injection exposure, vulnerable dependencies and sensitive logs.</p></article>
+        <article><span>06</span><h3>Capstone-to-Portfolio Pack</h3><p>Idea selector, scope limiter, architecture canvas, demo script, README, case study, submission checklist, LinkedIn post, portfolio copy and Product Hunt copy.</p></article>
+        <article><span>07</span><h3>Launch Page Builder</h3><p>Templates for headline, problem statement, demo, benefits, FAQ, pricing, CTA and refund terms.</p></article>
+        <article><span>08</span><h3>Emergency Recovery Guide</h3><p>Stop edits, preserve state, inspect diff, find last working commit, branch recovery, restore selectively, rerun tests and redeploy safely.</p></article>
+      </div>
+    </section>
+
+    <section class="angles section-pad">
+      <div class="section-heading"><p class="eyebrow">Six targeted doors</p><h2>One product, multiple high-intent entry points</h2></div>
+      <div class="angle-list">
+        <a href="#scanner">Google/Kaggle Capstone Completion Kit</a><a href="#scanner">Stop Claude/Codex Breaking Your App</a><a href="#scanner">Vibe-Coded App Production-Readiness System</a><a href="#scanner">AI App Security Preflight</a><a href="#scanner">Testing, Git Checkpoint and Rollback Kit</a><a href="#scanner">Non-Coder’s App Deployment Checklist</a>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing section-pad">
+      <div class="section-heading"><p class="eyebrow">Launch offer</p><h2>Pick the launch guardrail level</h2><p>No marketplace dependency. Use your own checkout, delivery and customer relationship.</p></div>
+      <div class="price-grid">
+        <article class="price-card"><h3>SHIPSAFE Solo</h3><p class="price">$39</p><p>For builders securing and launching their own project.</p><ul><li>Universal coding-agent guardrails</li><li>Production checklist</li><li>Security preflight</li><li>Git checkpoint and rollback protocol</li><li>Deployment and emergency recovery guide</li></ul><a class="btn btn-secondary" href="#scanner">Start with free scan</a></article>
+        <article class="price-card featured"><p class="badge">Recommended</p><h3>SHIPSAFE Founder</h3><p class="price">$89</p><p>For builders turning a capstone, portfolio project or micro-SaaS into a serious launch asset.</p><ul><li>Everything in Solo</li><li>Customizable project templates</li><li>AI-generated launch-readiness report structure</li><li>Capstone and portfolio launch pack</li><li>Monetization checklist</li><li>Client-ready audit report</li></ul><a class="btn btn-primary" href="#scanner">Diagnose my project</a></article>
+        <article class="price-card"><h3>Agency Licence</h3><p class="price">$149</p><p>For internal use across client projects without resale or redistribution of the files.</p><ul><li>Commercial project usage</li><li>Client-service assets</li><li>Editable source materials</li><li>Audit and delivery templates</li></ul><a class="btn btn-secondary" href="#scanner">Check readiness first</a></article>
+      </div>
+    </section>
+
+    <section id="campaign" class="campaign section-pad">
+      <div class="section-heading"><p class="eyebrow">Event-timed campaign</p><h2>Seven-day precision saturation</h2><p>Use the Google/Kaggle AI Agents course as the temporary traffic hook while keeping the product evergreen.</p></div>
+      <ol class="timeline">
+        <li><strong>June 13:</strong> Publish the product, free checklist, landing page and first educational posts.</li>
+        <li><strong>June 14:</strong> Teach the five files every AI-coded project needs before the first agent session.</li>
+        <li><strong>June 15:</strong> Day-one setup: scope locking, protected files, permission limits and checkpoints.</li>
+        <li><strong>June 16:</strong> False success: mock data, silent fallbacks, suppressed exceptions and hardcoded responses.</li>
+        <li><strong>June 17:</strong> Security: authorization tests, RLS checks, secrets review and anonymous-user testing.</li>
+        <li><strong>June 18:</strong> Recovery: create checkpoints before asking an AI to “fix everything.”</li>
+        <li><strong>June 19:</strong> Capstone submission: run the 12-point test before publishing.</li>
+        <li><strong>June 20:</strong> From capstone to portfolio asset or micro-SaaS; raise pricing.</li>
+      </ol>
+    </section>
+
+    <section class="final-cta section-pad">
+      <h2>Do not sell “templates.” Sell launch certainty.</h2>
+      <p>An agent saying the task is complete is not evidence. Changed files, commands, tests, security results, acceptance criteria and a recovery point are evidence.</p>
+      <a class="btn btn-primary" href="#scanner">Run the free launch-risk scan</a>
+    </section>
+  </main>
+
+  <footer><p>© 2026 SHIPSAFE AI. Product name requires final trademark/name-conflict review before commercial publication.</p></footer>
+  <script src="scripts/scanner.js"></script>
+</body>
+</html>
